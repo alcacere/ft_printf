@@ -1,0 +1,6 @@
+a.out
+*.o
+*.swp
+*.a
+*.gch
+main.c

@@ -2,7 +2,7 @@ NAME = libftprintf.a
 
 TARGET = all
 
-SRC = ft_printf.c 
+SRC = ft_printf.c ft_printf_utils.c ft_printf_other_utils.c
 
 OBJ = $(SRC:.c=.o)
 
