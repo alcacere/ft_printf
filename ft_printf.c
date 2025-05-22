@@ -37,7 +37,7 @@ int	ft_printf(char const *fmt, ...)
 		if (fmt[i] == '%')
 		{
 			fmt_id(fmt[i + 1], ap, &printd_cont);
-			i++;
+			i += 2;;
 		}
 		else
 		{
